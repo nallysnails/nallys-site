@@ -5,7 +5,7 @@ body{background:#F4EEE8;color:#4A4039;font-family:"Avenir Next",Avenir,Arial,san
 /* Diaporama des réalisations — une image à la fois */
 .carousel{display:block!important;width:100%!important;max-width:none!important;overflow:hidden!important;padding:8px 0 18px!important}
 .carousel-track{display:flex!important;width:400%!important;max-width:none!important;gap:0!important;animation:carousel-slide 24s ease-in-out infinite!important}
-.carousel figure{flex:0 0 25%!important;width:25%!important;height:auto!important;padding:0 8px!important;margin:0!important;display:block!important}
+.carousel figure{min-width:0!important;flex:0 0 25%!important;width:25%!important;height:auto!important;padding:0 8px!important;margin:0!important;display:block!important}
 .carousel img{width:100%!important;height:360px!important;object-fit:contain!important;background:#e9e0d7!important;display:block!important}
 @keyframes carousel-slide{0%,20%{transform:translateX(0)}25%,45%{transform:translateX(-25%)}50%,70%{transform:translateX(-50%)}75%,95%{transform:translateX(-75%)}100%{transform:translateX(0)}}
 @media(max-width:700px){.carousel img{height:260px!important}.carousel figure{padding:0 4px!important}}
