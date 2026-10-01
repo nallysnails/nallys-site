@@ -9,3 +9,12 @@ body{background:#F4EEE8;color:#4A4039;font-family:"Avenir Next",Avenir,Arial,san
 .carousel img{width:100%!important;height:360px!important;object-fit:contain!important;background:#e9e0d7!important;display:block!important}
 @keyframes carousel-slide{0%,20%{transform:translateX(0)}25%,45%{transform:translateX(-25%)}50%,70%{transform:translateX(-50%)}75%,95%{transform:translateX(-75%)}100%{transform:translateX(0)}}
 @media(max-width:700px){.carousel img{height:260px!important}.carousel figure{padding:0 4px!important}}
+
+/* Fond doux assorti à chaque réalisation */
+.carousel figure{position:relative;overflow:hidden;background-size:cover;background-position:center;background-repeat:no-repeat}
+.carousel figure::before{content:"";position:absolute;inset:-24px;background:inherit;background-size:cover;background-position:center;filter:blur(16px);opacity:.28;transform:scale(1.08);z-index:0}
+.carousel figure img{position:relative;z-index:1}
+.carousel figure:nth-child(1){background-image:url("gainage-rouge.png")}
+.carousel figure:nth-child(2){background-image:url("citron.png")}
+.carousel figure:nth-child(3){background-image:url("cateye-jade.png")}
+.carousel figure:nth-child(4){background-image:url("french-chrome.png")}
