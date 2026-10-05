@@ -36,3 +36,10 @@ body{background:#F4EEE8;color:#4A4039;font-family:"Avenir Next",Avenir,Arial,san
 
 .carousel-note{font-size:11px;letter-spacing:1.2px;color:#796855;margin:8px 0 0;text-align:center}
 .carousel + .button{margin-right:12px}
+
+
+/* Diaporama carré, centré, adapté aux écrans mobiles */
+.carousel{max-width:520px!important;margin:28px auto 0;padding:0!important;aspect-ratio:1/1}
+.carousel-track{height:100%}
+.carousel figure{height:100%!important;padding:0!important;aspect-ratio:1/1}
+.carousel img{height:100%!important;aspect-ratio:1/1;object-fit:cover!important;object-position:center;border-radius:0}
