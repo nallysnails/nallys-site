@@ -43,3 +43,7 @@ body{background:#F4EEE8;color:#4A4039;font-family:"Avenir Next",Avenir,Arial,san
 .carousel-track{height:100%}
 .carousel figure{height:100%!important;padding:0!important;aspect-ratio:1/1}
 .carousel img{height:100%!important;aspect-ratio:1/1;object-fit:cover!important;object-position:center;border-radius:0}
+
+/* Coiffure : navigation et carte accessibles sur mobile */
+.service-links{display:flex;gap:14px;flex-wrap:wrap;margin:28px 0}.service-links a{padding:12px 22px;border:1px solid #b79a69;text-decoration:none}.service-links a:hover{background:#e9e0d7}
+#coiffure,#onglerie{scroll-margin-top:24px}.hair-group{border-bottom:1px solid #d7cec5;padding:18px 0}.hair-group summary{cursor:pointer;font:24px Georgia,serif;padding:10px 0}.hair-group dl{margin:0}.hair-price{display:flex;justify-content:space-between;gap:24px;padding:18px 0;border-top:1px solid #e2d8cd}.hair-price dt{flex:1}.hair-price dd{margin:0;font-weight:600;text-align:right}.hair-price small{display:block;font-size:12px;line-height:1.6;color:#796855;margin-top:6px}.hair-group p{max-width:760px}@media(max-width:600px){.hair-price{gap:12px;font-size:14px}.hair-price dd{max-width:44%}.tag{letter-spacing:2px}}
