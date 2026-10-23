@@ -1,0 +1,6 @@
+/* Présentation des marques, dans chaque univers. */
+.brand-selection{margin:48px 0;padding:32px 0;border-top:1px solid #b79a69;border-bottom:1px solid #d7cec5}
+.brand-selection h2{margin:12px 0 24px}.brand-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.brand-selection h3{font-size:25px;line-height:1.25;margin:0 0 14px}.brand-selection p{font-size:15px;line-height:1.8;max-width:760px;margin:0}
+.brand-selection .brand-note{font-size:13px;color:#796855;margin-top:24px}
+@media(max-width:700px){.brand-grid{grid-template-columns:1fr;gap:26px}.brand-selection{margin:32px 0;padding:26px 0}}
